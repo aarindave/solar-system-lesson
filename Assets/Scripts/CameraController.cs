@@ -17,12 +17,12 @@ public class CameraController : MonoBehaviour
         // Rotate camera with mouse drag
         if (Mouse.current.rightButton.isPressed)
         {
-            currentX += Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-            currentY -= Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
+            currentX += Mouse.current.delta.x.ReadValue() * rotationSpeed * Time.deltaTime;
+            currentY -= Mouse.current.delta.y.ReadValue() * rotationSpeed * Time.deltaTime;
             currentY = Mathf.Clamp(currentY, minY, maxY);
         }
         // Zoom with scroll wheel
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        float scroll = Mouse.current.scroll.ReadValue().y;
         distance -= scroll * zoomSpeed;
         distance = Mathf.Clamp(distance, 5f, 300f);
     }
