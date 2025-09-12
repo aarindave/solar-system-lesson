@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1390,7 +1390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b46bd6e30d4baeaf48fb1aae2a9c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetOrbit
-  sun: {fileID: 0}
+  sun: {fileID: 1348244212}
   orbitSpeed: 10
   selfRotateSpeed: 50
   orbitRadius: 10
@@ -1783,7 +1783,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1348244212}
-  - {fileID: 2095126979}
   - {fileID: 531591358}
   - {fileID: 1319407030}
   - {fileID: 1834494200}
@@ -1792,3 +1791,4 @@ SceneRoots:
   - {fileID: 1071876003}
   - {fileID: 918078151}
   - {fileID: 1252651129}
+  - {fileID: 2095126979}

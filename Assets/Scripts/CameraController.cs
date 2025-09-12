@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CameraController : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         // Rotate camera with mouse drag
-        if (Input.GetMouseButton(1))
+        if (Mouse.current.rightButton.isPressed)
         {
             currentX += Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
             currentY -= Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
